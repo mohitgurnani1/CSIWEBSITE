@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 	<script type="text/javascript" src="engine1/jquery.js"></script>
 	<!-- End WOWSlider.com HEAD section -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
@@ -57,21 +59,27 @@
   <div class="container">
    
      <!-- Start WOWSlider.com BODY section -->
-	<div id="wowslider-container1">
-	<div class="ws_images"><ul>
-<li><img src="data1/images/vjti_slider.jpg" alt="vjti slider" title="vjti slider" id="wows1_0"/></li>
-<li><img src="data1/images/web_1.jpg" alt="web 1" title="web 1" id="wows1_1"/></li>
-</ul></div>
-<div class="ws_bullets"><div>
-<a href="#" title="vjti slider"><img src="data1/tooltips/vjti_slider.jpg" alt="vjti slider"/>1</a>
-<a href="#" title="web 1"><img src="data1/tooltips/web_1.jpg" alt="web 1"/>2</a>
-</div></div>
-
-	<div class="ws_shadow"></div>
-	</div>
-	<script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+              <div class="item active">
+                  <img src="images/vjti slider.jpg" width="1000" alt="First slide">
+              </div>
+              <div class="item">
+                  <img src="images/web_1.jpg" alt="Second slide" width="3000" height="750">
+              </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+      </div>
+      <!-- End WOWSlider.com BODY section -->
  <aside>
       <form action="#" id="newsletter-form">
         <fieldset>
@@ -127,8 +135,13 @@ VJTI Alumni
   
 </footer>
 <script type="text/javascript"> Cufon.now(); </script>
-<!-- END PAGE SOURCE -->
 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!-- END PAGE SOURCE -->
+</body>
 </html>
 
 
