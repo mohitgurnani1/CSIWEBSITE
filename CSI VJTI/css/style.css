@@ -252,12 +252,12 @@ h1 {
 	text-indent:-9999px;
 }
 h1 a {
-	width:562px;
-	height:130px;
+	width:591px;
+	height:185px;
 	position:absolute;
 	left:0;
 	top:60px;
-	background:url(../images/logo.jpg) no-repeat left top;
+	background:url(../images/logo3.jpg) no-repeat left top;
 }
 h2 {
 	font-size:24px;
@@ -329,25 +329,25 @@ header nav ul li.current a, header nav ul li a:hover {
 	color:#008cc4;
 }
 header nav ul li a.m1 {
-	width:186px;
+	width:100px;
 }
 header nav ul li.current a.m1 {
 	background-image:url(../images/m1-act.jpg);
 }
 header nav ul li a.m2 {
-	width:179px;
+	width:100px;
 }
 header nav ul li.current a.m2 {
 	background-image:url(../images/m2-act.jpg);
 }
 header nav ul li a.m3 {
-	width:208px;
+	width:100px;
 }
 header nav ul li.current a.m3 {
 	background-image:url(../images/m3-act.jpg);
 }
 header nav ul li a.m4 {
-	width:196px;
+	width:100px;
 }
 header nav ul li.current a.m4 {
 	background-image:url(../images/m4-act.jpg);
@@ -357,9 +357,21 @@ header nav ul li.last {
 	padding:0;
 }
 header nav ul li a.m5 {
-	width:167px;
+	width:100px;
 }
 header nav ul li.current a.m5 {
+	background-image:url(../images/m5-act.jpg);
+}
+header nav ul li a.m6 {
+	width:100px;
+}
+header nav ul li.current a.m6 {
+	background-image:url(../images/m5-act.jpg);
+}
+header nav ul li a.m7 {
+	width:100px;
+}
+header nav ul li.current a.m7 {
 	background-image:url(../images/m5-act.jpg);
 }
 #content .inside {
